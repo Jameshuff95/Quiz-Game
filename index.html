@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A quiz game made with HTML, CSS and Javascript.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="James Huff">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <div></div>
+        <p id="header"></p>
+        <p id="close">X</p>
+    </header>
+    <div id="main">
+        <div id="subjectsContainer">
+            <div id="0" class="subject"><p>Geography</p></div>
+            <div id="1" class="subject"><p>Literature</p></div>
+            <div id="2" class="subject"><p>Science</p></div>
+            <div id="3" class="subject"><p>History</p></div>
+            <div id="4" class="subject"><p>Art</p></div>
+            <div id="5" class="subject"><p>Music</p></div>
+        </div>
+        <div id="generalContainer">
+            <div id="questionGeneralContainer">
+                <div id="questionContainer"><p id="question"></p></div>
+                <div id="answerContainer">
+                    <div id="a" class="answer"></div>
+                    <div id="b" class="answer"></div>
+                    <div id="c" class="answer"></div>
+                    <div id="d" class="answer"></div>
+                </div>
+            </div>
+            <div id="scoreContainer">
+                <p id="scoreText"></p>
+                <p id="scoreTitle"></p>
+                <p id="suggestion"></p>
+                <div id="resultsContainer">
+                    <ul id="resultQuestionsContainer">
+                        <p>Questions:</p>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                        <li class="resultQuestion"></li>
+                    </ul>
+                    <ul id="userAnswers">
+                        <p>Your Answers:</p>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                        <li class="resultAnswer"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
